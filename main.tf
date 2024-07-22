@@ -1,7 +1,7 @@
 ################# Control Tower Guardrails. Target: AFT OU ###################
 resource "aws_controltower_control" "cloud_formation_required_guardrail" {
   control_identifier = "arn:aws:controltower:${var.aws_region}::control/WTDSMKDKDNLE"
-  target_identifier  = "arn:aws:organizations::${var.mpa_account_id}:ou/${var.aft_ou_id}"
+  target_identifier  = "arn:aws:organizations::${var.mpa_account_id}:ou/o-sgbmeqwqhx/${var.aft_ou_id}"
 }
 
 resource "aws_controltower_control" "s3_kms_encryption_required" {
