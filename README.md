@@ -1,4 +1,4 @@
-# DinoCloud AWS xxx module
+# DinoCloud AWS MPA account module
 
 Module description
 
@@ -7,26 +7,34 @@ Module description
 - feature 1
 - feature 2
 
-## Examples
-- [Example name](https://github.com/dinocloud/dinocloud-TF-xxxModule-terraform/tree/main/examples/xxx)
-
-## Usage
-
-```hcl
-module "example"{
-  source  = "../../"
-
-  component   = "Example"
-  customer    = "ClientX"
-  team        = "DevOps"
-  environment = "Test"
-
-  ...
-}
-```
-
 ## Terraform docs
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 5.0 |
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 Powered with 💖 by DinoCloud
