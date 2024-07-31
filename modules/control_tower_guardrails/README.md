@@ -10,7 +10,7 @@
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.59.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.60.0 |
 
 ## Modules
 
@@ -29,9 +29,9 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_aft_ou_id"></a> [aft\_ou\_id](#input\_aft\_ou\_id) | AFT OU ID | `string` | n/a | yes |
 | <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | AWS region | `string` | n/a | yes |
 | <a name="input_mpa_account_id"></a> [mpa\_account\_id](#input\_mpa\_account\_id) | MPA account ID | `string` | n/a | yes |
+| <a name="input_production_ou_id"></a> [production\_ou\_id](#input\_production\_ou\_id) | Production organization unit ID | `string` | n/a | yes |
 
 ## Outputs
 
